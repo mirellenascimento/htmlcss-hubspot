@@ -4,14 +4,26 @@
   padding: 0;
 }
 
+
 /* GENERAL */
-.root-container{
-  width: 70%;
-  margin: auto;
+.root.container{
+
 }
 
+.row::after{
+  clear: both;
+  content: "";
+  display: table;
+}
+/* UNIVERSAL */
+.f {
+  float: left;
+}
 
-
+.row{
+  width: 80%;
+  margin: auto;
+}
 /* top header */
 .header-top{
   background-color: #f4f9fd;
@@ -21,7 +33,6 @@
 }
 
 .top-left, .top-right {
-  float: left;
   width: 50%;
   display: inline-block;
   height: 80px;
@@ -37,7 +48,6 @@
 }
 
 .menu-left, .menu-right{
-  float: left;
   width: 50%;
   display: inline-block;
   height: 80px;
@@ -46,6 +56,115 @@
 }
 
 /* banner */
+.banner{
+  background-color: #fff4ef;
+  width: 100%;
+  height: 700px
+}
+
 .banner-content{
-  
+  width: 40%;
+  height: 80%;
+  border: 1px solid black;
+  margin-left: 10%;
+  margin-top: 4%;
+}
+
+/* container-01 */
+
+.container-01{
+  width: 100%;
+  height: 1200px;
+  background-color: #f4f9fd;
+  position: relative;
+}
+
+.row-top-cont-01{
+  height: 300px;
+  padding: 30px;
+  text-align: center;
+  border: 1px solid black;
+}
+
+.row-middle-cont-01{
+  height: 300px;
+  padding: 30px;
+  text-align: center;
+  border: 1px solid black;
+  background-color: white;
+  margin-bottom: 30px;
+}
+
+.row-bottom-cont-01 .col{
+  float: left;
+  width: 30%;
+  height: 500px;
+  background-color: white;
+  border: 1px solid black;
+}
+
+.col-bottom-cont-02, .col-bottom-cont-03{
+  margin-left: 5%;
+}
+
+/* container-02 */
+.container-02{
+  width: 100%;
+  height: 600px;
+  background-color: #00afb1;
+  background-size: cover;
+  position: relative;
+}
+
+.row-top-cont-02{
+  height: 200px;
+  border: 1px solid black;
+}
+
+.row-bottom-cont-02{
+  height: 400px;
+  border: 1px solid black;
+}
+
+/* container-03 */
+.container-03{
+  width: 100%;
+  height: 600px;
+  background-color: white;
+  position: relative;
+}
+
+.row-top-cont-03 .col{
+  width: 50%;
+  border: 1px solid black;
+  height: 200px;
+}
+
+.row-bottom-cont-03 .col{
+  width: 50%;
+  border: 1px solid black;
+  height: 600px;
+}
+
+footer{
+  width: 100%;
+  height: 400px;
+  background-color: #32495b;
+  display: inline-block;
+}
+
+.row-footer-top{
+  margin-top: 30px;
+  height: 250px;
+}
+
+.row-footer-top .col{
+  width: 25%;
+  height: 250px;
+  border: 1px solid black;
+}
+
+.row-footer-bottom{
+  border: 1px solid black;
+  height: 100px;
 }
