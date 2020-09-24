@@ -90,7 +90,7 @@ ul.top-right li a{
 /* BANNER */
 
 .banner{
-  background-color: lightgrey;
+  background-color: #fff4ef;
   background-size: cover;
   height: 600px;
 }
@@ -106,4 +106,43 @@ ul.top-right li a{
 }
 .banner-content > *{
   padding: 20px;
+}
+
+/* PART 01 */
+.home-01{
+  background-color: #f4f9fd;
+  background-size: cover;
+  height: 1000px;
+}
+
+.col.home-01-01, .col.home-01-02{
+  height: 200px;
+}
+
+.col.home-01-02{
+  background-color: white;
+  height: 200px;
+  border-radius: 5px;
+}
+
+.row.home-01-03 > *{
+  width: 30%;
+  height: 500px;
+  background-color: white;
+  border-radius: 5px;
+  margin: 40px 0;
+}
+.col.home-01-03-02, .col.home-01-03-03{
+  margin-left: 5%;
+}
+
+/* PART 02 */
+.home-02{
+  background-color: #00a7bb;
+  background-size: cover;
+  height: 600px;
+}
+
+.col.home-02-01{
+  height: 200px;
 }
