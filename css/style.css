@@ -20,8 +20,9 @@
 
 
 /* text */
-html{
+body{
   font-family: "AvenirNext","Helvetica Neue",Helvetica,Arial,sans-serif;
+  color: #33475b;
 }
 h1{
   font-size: 36px;
@@ -58,7 +59,7 @@ button {
 
 /* GENERAL */
 .container{
-  color: #33475b;
+
 }
 
 .row::after{
@@ -84,9 +85,9 @@ display: table;
   transform: translate(-50%, -50%);
 }
 
-.row, .col{
+/*.row, .col{
   border: 1px solid black;
-}
+}*/
 
 .t-left{
   text-align: left;
@@ -148,6 +149,9 @@ display: table;
   background-size: contain;
   background-repeat: no-repeat;
 }
+.top.t-left{
+  height: 80px;
+}
 
 ul.top.t-left li{
   display: inline-block;
@@ -179,7 +183,7 @@ ul.top-t-right li a{
   background-size: cover;
   background-position: center;
   background-repeat: no-repeat;
-  height: 600px;
+  height: 700px;
 }
 
 .banner-content{
@@ -201,7 +205,6 @@ ul.top-t-right li a{
 .home-01{
   background-color: #f4f9fd;
   background-size: cover;
-  height: 1450px;
 }
 #cube{
   width: 200px;
@@ -244,7 +247,6 @@ margin-right: 20px;
 
 .row.home-01-03 > *{
   width: 30%;
-  height: 600px;
   background-color: white;
   border-radius: 5px;
   margin: 40px 0;
@@ -269,7 +271,6 @@ ul.check-points{
 .home-02{
   background-color: #00a7bb;
   background-size: cover;
-  height: 600px;
   color: white;
 }
 
@@ -277,7 +278,6 @@ ul.check-points{
   height: 200px;
   padding: 30px;
   text-align: center;
-  margin: 0 30px;
 }
 
 .col.home-02-02 {
@@ -296,8 +296,6 @@ table th{
 .home-03{
   background-color: white;
   background-size: cover;
-  height: 600px;
-
 }
 
 .row.home-03-01 {
@@ -324,29 +322,59 @@ table th{
   padding: 30px;
 }
 .home-03-02-02{
-  text-align: right;
+  text-align: center;
 }
 
 /* FOOTER */
 footer{
   width: 100%;
-  height: 400px;
   background-color: #32495b;
   display: inline-block;
+  color: lightgrey;
 }
 
 .row-footer-top{
   margin-top: 30px;
   height: 250px;
+  font-size: 14px;
+}
+
+footer ul{
+  list-style-type: none;
+  font-size: 13px;
+  line-height: 30px;
 }
 
 .row-footer-top .col{
   width: 25%;
-  height: 250px;
-  border: 1px solid black;
+  padding-left: 50px;
+  padding-top: 30px;
+
 }
 
+.row-footer-top li:first-child{
+  color: white;
+}
+
+#footer-button{
+  background-color: lightgrey;
+  color: #32495b;
+  padding: 10px 10px;
+  font-size: 11px;
+  margin-top: 10px;
+}
+
+.fa-facebook, .fa-instagram, .fa-youtube-play, .fa-twitter, .fa-linkedin{
+    padding: 8px;
+    color: lightgrey;
+    padding-right: 10px;
+  }
+
 .row-footer-bottom{
-  border: 1px solid black;
   height: 100px;
+  font-size: 12px;
+}
+
+.footer-bottom{
+  margin-top: 30px;
 }
