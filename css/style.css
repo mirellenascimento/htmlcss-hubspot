@@ -120,6 +120,12 @@ display: table;
   -webkit-transform: rotate(45deg);
 }
 
+.b-btt{
+  border-bottom: 1px solid white;
+}
+.b-r{
+  border-right: 1px solid white;
+}
 
 
 /* HEADER */
@@ -137,12 +143,11 @@ display: table;
 
 #logo-box{
   height: 80px;
-  width: calc(100% * 3);
+  width: 30%;
   background-image: url(../img/logo-hubspot.png);
   background-size: contain;
   background-repeat: no-repeat;
 }
-
 
 ul.top.t-left li{
   display: inline-block;
@@ -264,15 +269,27 @@ ul.check-points{
 .home-02{
   background-color: #00a7bb;
   background-size: cover;
-  height: 800px;
+  height: 600px;
+  color: white;
 }
 
 .col.home-02-01 {
-  height: 400px;
+  height: 200px;
+  padding: 30px;
+  text-align: center;
+  margin: 0 30px;
 }
 
 .col.home-02-02 {
   height: 400px;
+}
+
+table th{
+  text-align: center;
+  border: 1px solid black;
+  padding: 30px;
+  font-size: 30px;
+  margin: 30px;
 }
 
 /* PART 03 */
@@ -280,14 +297,16 @@ ul.check-points{
   background-color: white;
   background-size: cover;
   height: 600px;
+
 }
 
 .row.home-03-01 {
   height: 200px;
+  margin-top: 30px;
 }
 
-.col.home-03-01-01{
-  width: 30%;
+.row.home-03-01:first-child{
+  padding-left: 30px;
 }
 
 .col.home-03-01-02{
@@ -296,10 +315,16 @@ ul.check-points{
 
 .row.home-03-02 {
   height: 400px;
-}
 
+}
 .col.home-03-02-01, .col.home-03-02-02 {
   width: 50%;
+}
+.home-03-02-01{
+  padding: 30px;
+}
+.home-03-02-02{
+  text-align: right;
 }
 
 /* FOOTER */
