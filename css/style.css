@@ -3,14 +3,43 @@
   margin: 0;
   padding: 0;
 }
-    /* COLOR */
-.button{
-  background: #fe775a
-  color: white;
+
+/* text */
+html{
+  font-family: "AvenirNext","Helvetica Neue",Helvetica,Arial,sans-serif;
 }
+h1{
+  font-size: 36px;
+}
+
+
+/* button */
+button {
+  background-color: #fe775a; /* Orange*/
+  border: none;
+  color: white;
+  padding: 10px 20px;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  font-size: 14px;
+  border-radius: 5px;
+}
+
+#login-button{
+  background-color: white;
+  border: 1px solid #fe775a;
+  color: #fe775a;
+}
+
+
 /* GENERAL */
 .container{
+  color: #33475b;
 }
+
+
+
 .row::after{
 clear: both;
 content: "";
@@ -41,6 +70,22 @@ display: table;
   padding-right: 50px;
 }
 
+.arrow {
+  border: solid black;
+  border-width: 0 3px 3px 0;
+  display: inline-block;
+  padding: 3px;
+  line-height: 60px;
+  margin-left: 10px;
+  margin-bottom: 2px;
+  color: #33475b;
+}
+.down {
+  transform: rotate(45deg);
+  -webkit-transform: rotate(45deg);
+}
+
+
 /* HEADER */
 .header-top{
   width: 100%;
@@ -52,6 +97,14 @@ display: table;
   width: 100%;
   background-color: white;
   background-size: cover;
+}
+
+#logo-box{
+  height: 80px;
+  width: calc(100% * 3);
+  background-image: url(../img/logo-hubspot.png);
+  background-size: contain;
+  background-repeat: no-repeat;
 }
 
 .header > .row{
@@ -79,6 +132,7 @@ ul.top.t-left li{
 
 li a{
   text-decoration: none;
+  color: #33475b;
 }
 
  li{
