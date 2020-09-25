@@ -98,6 +98,13 @@ display: table;
   padding-right: 50px;
 }
 
+.center{
+  position: absolute;
+  left: 50%;
+  transform: translate(-50%, 0);
+
+}
+
 .arrow {
   border: solid black;
   border-width: 0 3px 3px 0;
@@ -189,7 +196,7 @@ ul.top-t-right li a{
 .home-01{
   background-color: #f4f9fd;
   background-size: cover;
-  height: 1000px;
+  height: 1450px;
 }
 #cube{
   width: 200px;
@@ -218,20 +225,37 @@ ul.top-t-right li a{
  height: 350px;
  text-align: left;
 }
+
 #free-hub-line{
   margin-top: 10px;
   border: 1px solid #33475b;
 
 }
-
+.fa-check-circle{
+color: #fe775a;
+margin-left: 5px;
+margin-right: 20px;
+}
 
 .row.home-01-03 > *{
   width: 30%;
-  height: 500px;
+  height: 600px;
   background-color: white;
   border-radius: 5px;
   margin: 40px 0;
+  text-align: center;
+  padding: 30px 20px;
 }
+ul.check-points li{
+  list-style-type: none;
+  line-height: 20px;
+  text-align: left;
+}
+
+ul.check-points{
+  padding-bottom: 30px;
+}
+
 .col.home-01-03-02, .col.home-01-03-03{
   margin-left: 5%;
 }
