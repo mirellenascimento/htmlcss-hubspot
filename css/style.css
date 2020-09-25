@@ -18,27 +18,30 @@ button {
   background-color: #fe775a; /* Orange*/
   border: none;
   color: white;
-  padding: 10px 20px;
+  padding: 20px 35px;
   text-align: center;
   text-decoration: none;
   display: inline-block;
   font-size: 14px;
   border-radius: 5px;
 }
-
 #login-button{
   background-color: white;
   border: 1px solid #fe775a;
   color: #fe775a;
+  padding: 10px 20px;
 }
+#top-button{
+  padding: 10px 20px;
+}
+
+
 
 
 /* GENERAL */
 .container{
   color: #33475b;
 }
-
-
 
 .row::after{
 clear: both;
@@ -127,7 +130,6 @@ ul.top.t-left li{
   height: 80px;
   line-height: 80px;
   padding-right: 10px;
-
 }
 
 li a{
@@ -149,8 +151,10 @@ ul.top-t-right li a{
 /* BANNER */
 
 .banner{
-  background-color: #fff4ef;
+  background-image: url(../img/banner-bg.png);
   background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
   height: 600px;
 }
 
@@ -166,7 +170,9 @@ ul.top-t-right li a{
 .banner-content > *{
   padding: 20px;
 }
-
+#banner-bottom{
+  font-size: 12px;
+}
 /* PART 01 */
 .home-01{
   background-color: #f4f9fd;
