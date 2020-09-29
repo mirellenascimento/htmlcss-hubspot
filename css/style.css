@@ -34,25 +34,35 @@ p{
 }
 
 /* button */
-button {
+.button {
   background-color: #fe775a; /* Orange*/
   border: none;
   color: white;
-  padding: 20px 35px;
-  text-align: center;
-  text-decoration: none;
-  display: inline-block;
-  font-size: 14px;
+  font-size: 16px;
   border-radius: 5px;
+  display: inline-block;
+  padding: 5px 30px;
+}
+
+.button p{
+  display: inline-block;
+  vertical-align: middle;
 }
 #login-button{
   background-color: white;
   border: 1px solid #fe775a;
   color: #fe775a;
-  padding: 10px 20px;
+  padding: 2px 20px;
+  border-radius: 5px;
+  font-size: 12px;
 }
 #top-button{
-  padding: 10px 20px;
+  background-color: #fe775a; /* Orange*/
+  border-radius: 5px;
+  border: none;
+  color: white;
+  padding: 3px 20px;
+  font-size: 12px;
 }
 
 /* GENERAL */
@@ -98,21 +108,11 @@ display: table;
   transform: translate(-50%, 0);
 }
 
-.arrow {
-  border: solid black;
-  border-width: 0 3px 3px 0;
-  display: inline-block;
-  padding: 3px;
-  line-height: 60px;
+
+.fa-chevron-down{
   margin-left: 10px;
-  margin-bottom: 2px;
-  color: #33475b;
 }
 
-.down {
-  transform: rotate(45deg);
-  -webkit-transform: rotate(45deg);
-}
 
 .b-btt{
   border-bottom: 1px solid white;
@@ -374,16 +374,19 @@ footer ul{
 #footer-button{
   background-color: lightgrey;
   color: #32495b;
-  padding: 10px 10px;
   font-size: 11px;
   margin-top: 10px;
+  display: inline-block;
+  border-radius: 5px;
+  border: none;
+  padding: 3px 20px;
 }
 
 .fa-facebook, .fa-instagram, .fa-youtube-play, .fa-twitter, .fa-linkedin{
     padding: 8px;
     color: lightgrey;
     padding-right: 10px;
-}
+  }
 
 .row-footer-bottom{
   height: 100px;
